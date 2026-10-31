@@ -13,7 +13,7 @@ Built a two-VM home lab using Wazuh to practice endpoint monitoring.
 - Installed and configured the Wazuh Manager and dashboard on the Ubuntu system.
 - Installed the Wazuh agent on the Windows machine and registered it with the manager.
 - Confirmed the agent showed as Active in the dashboard.
-- Edited the agent's `ossec.conf` file to monitor a test folder in realtime with `realtime="yes"`.
+- Edited the agent's `ossec.conf` file to monitor a test folder with `realtime="yes"`.
 - Added and deleted test files in the test folder, and then confirmed alerts were generated on Wazuh.
 
 ## Results
