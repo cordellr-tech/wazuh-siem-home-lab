@@ -22,3 +22,27 @@ Built a two-VM home lab using Wazuh to practice endpoint monitoring.
 - Generated alerts after creating and deleting the test files.
 
 ## Screenshots
+
+### 1. Before: no agents registered
+![No agents registered](screenshots/01-no-agents.png)
+
+### 2. Windows agent configured
+![Windows agent running](screenshots/02-agent-running.png)
+
+### 3. After: agent active
+![Agent active overview](screenshots/03-agent-active-overview.png)
+
+### 4. Agent details
+![Agent list](screenshots/04-agent-list.png)
+
+### 5. FIM configuration
+![FIM config](screenshots/05-fim-config.png)
+
+### 6. FIM events
+![FIM events](screenshots/06-fim-events.png)
+
+### 7. File added alert
+![File added](screenshots/07-fim-file-added.png)
+
+### 8. File deleted alert
+![File deleted](screenshots/08-fim-file-deleted.png)
